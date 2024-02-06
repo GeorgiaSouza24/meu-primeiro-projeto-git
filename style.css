@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Oswald&family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.link-menu:hover {
+    background: rgba(246, 248, 246, 0.788);
+    color: #4CB538;
+}
+
+
+
+
+.button-sing-up {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFfff;
+}
+
+.button-sing-up:hover {
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.button-sing-up:active {
+    opacity: 0.5;
+}
+
+
+
+
+
+img {
+    margin: 163px 0 0 121px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    color: #161A49;
+
+}
+
+p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    
+
+
+}
+ 
+.button-learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height:27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.button-learn-more:hover {
+    opacity: 0.8;
+}
+
+.button-learn-more:active {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    div {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    img {
+        display: block;
+        position: static;
+        max-width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: auto;
+        margin: 29px 57px 29px 29px;
+        text-align: center;
+    }
+
+    p {
+        margin: 29px 43px;
+        width: auto;
+        font-size: 14px;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    .button-learn-more {
+        margin: 0 auto;
+        display: block;
+    }
+
+    
+
+    main {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        
+    }
+
+    .link-menu {
+        display: none;
+
+    }
+
+    .button-sing-up {
+        margin: 0 25px 0 auto;
+        display: block;
+
+    }
+
+
+}
+    
+
+
+
+
+
+
+
+
